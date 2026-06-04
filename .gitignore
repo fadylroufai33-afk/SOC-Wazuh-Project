@@ -1,0 +1,21 @@
+# Fichiers sensibles à ne pas publier
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# Logs
+*.log
+*.json
+
+# Paquets téléchargés
+*.deb
+*.gz
+*.tar
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

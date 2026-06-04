@@ -1,0 +1,15 @@
+# Configuration des certificats Wazuh
+# Utilisé par wazuh-certs-tool.sh pour générer les certificats SSL
+
+nodes:
+  indexer:
+    - name: node-1
+      ip: 127.0.0.1
+
+  server:
+    - name: wazuh-1
+      ip: 127.0.0.1
+
+  dashboard:
+    - name: dashboard
+      ip: 127.0.0.1
