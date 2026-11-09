@@ -21,7 +21,7 @@ Ce projet consiste en le déploiement complet d'un **SOC (Security Operations Ce
 - ✅ Détection brute force SSH en moins de 60 secondes
 - ✅ Plus de 20 000 alertes indexées et visualisées
 - ✅ Dashboards SOC opérationnels
-- ✅ Conformité RGPD, NIS2, PCI-DSS intégrée
+- ✅ Alertes automatiquement associées aux référentiels (RGPD, PCI-DSS, NIST, NIS2) par Wazuh
 
 ---
 
@@ -132,7 +132,7 @@ Blocage de tentatives d'accès non autorisé sur le laptop Linux.
 
 ## 🛡️ Conformité
 
-Ce SOC couvre les référentiels suivants :
+Wazuh associe nativement chaque alerte aux référentiels suivants (mapping automatique du produit, pas une mise en conformité de l'entreprise) :
 - **RGPD** (IV_32.2, IV_35.7.d)
 - **PCI-DSS** (10.2.4, 10.2.5)
 - **HIPAA** (164.312.b)
